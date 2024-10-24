@@ -1,7 +1,7 @@
 # Functions
 
 Functions in programming are named sections of a program that perform a specific task. They allow us to write a piece of code once and reuse it in different places throughout the program, making our code more modular and easier to maintain. Functions often take in input, do something with it, and return output. Functions can be categorized into four main types:
-- **Built-in** functions: provided by the programming language, like `print()` in Python.
-- **User-defined** functions: written by the user for a specific use case.
-- **Anonymous** functions: also known as lambda functions, which are not declared using the standard keyword (`def` in Python, for example).
-- **Higher-order** functions: functions that take other functions as arguments or return a function.
+- **Built-in** functions: Built-in functions are pre-defined functions provided by the programming language itself. These functions are always available for use without the need for a programmer to define them. For example, in Python, functions like print(), len(), and type() are built-in functions. They provide basic functionality that is commonly required in many programs.
+- **User-defined** functions: User-defined functions are functions that programmers create to perform specific tasks tailored to their needs. These functions are defined using a specific syntax provided by the programming language. In Python, for instance, a user-defined function is created using the def keyword followed by the function name and parameters. User-defined functions allow programmers to modularize their code, making it reusable and easier to understand.
+- **Anonymous** functions: Anonymous functions, also known as lambda functions, are functions that are defined without a name. They are typically used for short, simple operations and are often used as arguments to higher-order functions. In Python, anonymous functions are created using the lambda keyword.
+- **Higher-order** functions: Higher-order functions are functions that take other functions as arguments or return a function as a result. They are a key concept in functional programming and enable powerful ways to abstract and compose functionality. Higher-order functions allow for more flexible and concise code. In Python, functions like map(), filter(), and reduce() are examples of higher-order functions. For example:
